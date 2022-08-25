@@ -1,9 +1,9 @@
 public class MainBucleSwitch {
 
     public static void main(String[] args) {
-    var Estacion = "primavera";
+    var estacion = "primavera";
 
-        switch (Estacion) {
+        switch (estacion) {
             case "verano" -> System.out.println("es verano");
             case "invierno" -> System.out.println("estamos en invierno");
             case "primavera" -> System.out.println("ya es primavera");
