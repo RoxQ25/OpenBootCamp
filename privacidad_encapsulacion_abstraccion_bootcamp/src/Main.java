@@ -1,51 +1,49 @@
 public class Main {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-       Persona persona = new Persona();
-       persona.SetEdad("70");
+        Persona persona = new Persona();
+		persona.setEdad(70);
 
-       System.out.println(persona.getEdad());
+		System.out.println(persona.getEdad());
 
-       Persona persona1 = new Persona();
-       persona.SetNombre("Ricardo");
+		persona.setNombre("Ricardo");
 
-       System.out.println(persona.getNombre());
+		System.out.println(persona.getNombre());
 
-        Persona persona2 = new Persona();
-        persona.SetTelefono("678909213");
+		persona.setTelefono("678909213");
 
-        System.out.println(persona.getTelefono());
-    }
+		System.out.println(persona.getTelefono());
+	}
 }
 
-class   Persona {
-    private String edad;
+class Persona {
+	private int edad;
 
-    public void SetEdad (String edad) {
-        this.edad = edad;
-    }
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
 
-    public String getEdad(){
-        return this.edad;
-    }
+	public int getEdad() {
+		return this.edad;
+	}
 
-    private String nombre;
+	private String nombre;
 
-    public void SetNombre (String nombre){
-        this.nombre = nombre;
-    }
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
-    public String getNombre(){
-        return this.nombre;
-    }
+	public String getNombre() {
+		return this.nombre;
+	}
 
-    private String telefono;
+	private String telefono;
 
-    public void SetTelefono (String telefono){
-        this.telefono = telefono;
-    }
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
 
-    public String getTelefono(){
-        return this.telefono;
-    }
+	public String getTelefono() {
+		return this.telefono;
+	}
 }
