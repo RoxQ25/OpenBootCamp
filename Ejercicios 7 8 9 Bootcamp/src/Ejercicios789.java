@@ -1,0 +1,2 @@
+public class Ejercicios789 {
+}
